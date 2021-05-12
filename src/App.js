@@ -13,7 +13,7 @@ function App() {
           <Route path="/" exact>
             <Redirect to="/welcome" />
           </Route>
-          <Route path="/welcome">
+          <Route path="/welcome" exact>
             <Welcome />
           </Route>
           <Route path="/products" exact>
